@@ -21,16 +21,31 @@ A clean, responsive calculator built with **Streamlit** that allows users to per
 
 ---
 
-## 📷 Screenshots
-
-<img src="https://i.imgur.com/QzR1xRu.png" width="600"/>
-
----
-
 ## 📦 Installation & Running Locally
 
-### 1. Clone the repository
+Follow these steps to run the app on your local machine:
+
+### Step 1: Clone the Repository and Setup the App
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/streamlit-calculator.git
 cd streamlit-calculator
+
+### Step 2: Create and Activate a Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv          # Create a virtual environment
+venv\Scripts\activate        # Activate on Windows
+# OR
+source venv/bin/activate     # Activate on macOS/Linux
+
+### Step 3: Install Dependencies
+
+```bash
+pip install streamlit
+
+
+### Step 4: Run the Application
+
+```bash
+streamlit run calculator_app.py
